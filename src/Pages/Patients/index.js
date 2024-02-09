@@ -12,7 +12,8 @@ import './index.scss'
 import { color } from '@mui/system';
 import { Typography, colors } from '@mui/material';
 function Patients() {
-
+ 
+  
    const columns = [
     {field: "id", headerName:"Patient ID",width:90,headerAlign:'start',align:"center",cellClassName:"id-col",headerClassName:"id-head"},
     {field:"name", headerName:"Patient Name",flex:1 ,width:250,cellClassName:"id-col",headerClassName:"id-head"},
@@ -47,6 +48,7 @@ function Patients() {
     
   ]
   return (
+    
         <>
         <Layout/>
       <div className='patient-container'>

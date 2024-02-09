@@ -49,7 +49,7 @@ function Calendar() {
             <div className='calendar-container'>
                 <Box m='20px' ml="120px">
                     <h1>Schedule</h1>
-                    <h2>Create aand view Appointment</h2>
+                    <h2>Create and view Appointment</h2>
                     <Box display='flex' justifyContent='space-between'>
                     <Box flex='1 1 20%' backgroundColor='rgb(23, 61, 156)' p="15px" borderRadius="4px" border="solid 2px black">
                         <Typography variant="h5" color="white" fontFamily="Coolvetica">Events</Typography>
