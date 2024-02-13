@@ -7,6 +7,7 @@ import {mockDataPatients} from '../../Data/MockData';
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined"
 import SecurityOutlined from "@mui/icons-material/SecurityOutlined"
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
+import Header from '../../Components/Header';
 
 import './index.scss'
 import { color } from '@mui/system';
@@ -53,11 +54,11 @@ function Patients() {
         <Layout/>
       <div className='patient-container'>
     <div className='header'>
-    <h1>PATIENTS</h1>
-    <h2>Manage Patient Data</h2>
+   
+    <Header title="PATIENTS" subtitle="View and Manage Patient Data"/>
     </div>
       <Box className="box">
-    <DataGrid className='grid' sx={{border:3,m:6}}
+    <DataGrid className='grid' sx={{border:3,m:3}}
       rows={mockDataPatients}
       columns={columns}
       initialState={{
