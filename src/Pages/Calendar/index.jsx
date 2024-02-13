@@ -7,6 +7,7 @@ import interactionPlugIn from '@fullcalendar/interaction'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import listPlugin from '@fullcalendar/list'
 import Loader from 'react-loaders';
+import Header from '../../Components/Header';
 import "./index.scss"
 import{
     Box,
@@ -48,10 +49,10 @@ function Calendar() {
                 <Sidebar/>
             <div className='calendar-container'>
                 <Box m='20px' ml="120px">
-                    <h1>Schedule</h1>
-                    <h2>Create aand view Appointment</h2>
+                    <Header title="SCHEDULE" subtitle="Create and View Appointments"/>
+
                     <Box display='flex' justifyContent='space-between'>
-                    <Box flex='1 1 20%' backgroundColor='rgb(23, 61, 156)' p="15px" borderRadius="4px" border="solid 2px black">
+                    <Box flex='1 1 20%' backgroundColor='rgb(54, 78, 139)' p="15px" borderRadius="4px" border="solid 2px black">
                         <Typography variant="h5" color="white" fontFamily="Coolvetica">Events</Typography>
                         <List> 
                             {currEvents.map((event)=>(

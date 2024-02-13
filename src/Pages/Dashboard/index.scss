@@ -1,35 +1,8 @@
-.dashboard-container{
+.dashboard{
     width: 100%;
     height: 100vh;
-    text-align: center;
-    animation: fadeIn 0.3s 1s backwards ;
-    justify-content: start;
-    display: flex;
-    align-items: end;
-    margin-left: 120px;
+    animation: fadeIn 1s 1s backwards;
+
     
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    margin-bottom: 20px;
-    
-}
-
-.data{
-    margin: 20px 10px;
-    text-align: center;
-    width:400px;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.data2{
-    grid-column-start: 1;
-    grid-column-end: 4;
-  
-}

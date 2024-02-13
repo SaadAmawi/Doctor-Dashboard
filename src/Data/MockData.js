@@ -2,24 +2,24 @@
 export const mockDataPatients = [
   {
     id: 1,
-    name: "Jon Snow",
-    email: "jonsnow@gmail.com",
+    name: "Moath Ramahi",
+    email: "MoathRam@gmail.com",
     age: 35,
     phone: "(665)121-5454",
-    access: "admin",
+    access: "user",
   },
   {
     id: 2,
-    name: "Cersei Lannister",
-    email: "cerseilannister@gmail.com",
+    name: "Mohammad Qubaisi",
+    email: "M.Qubaisi@gmail.com",
     age: 42,
     phone: "(421)314-2288",
-    access: "manager",
+    access: "user",
   },
   {
     id: 3,
-    name: "Jaime Lannister",
-    email: "jaimelannister@gmail.com",
+    name: "Khaled Umair",
+    email: "khaledUmair@gmail.com",
     age: 45,
     phone: "(422)982-6739",
     access: "user",
@@ -30,7 +30,7 @@ export const mockDataPatients = [
     email: "anyastark@gmail.com",
     age: 16,
     phone: "(921)425-6742",
-    access: "admin",
+    access: "user",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ export const mockDataPatients = [
     email: "evermelisandre@gmail.com",
     age: 150,
     phone: "(232)545-6483",
-    access: "manager",
+    access: "user",
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ export const mockDataPatients = [
     email: "harveyroxie@gmail.com",
     age: 65,
     phone: "(444)555-6239",
-    access: "admin",
+    access: "user",
   },
   {
     id: 10,
@@ -78,7 +78,7 @@ export const mockDataPatients = [
     email: "KQUBAISI@gmail.com",
     age: 65,
     phone: "(444)555-6239",
-    access: "admin",
+    access: "user",
   },
   
 ];
@@ -210,7 +210,7 @@ export const mockDataContacts = [
 export const mockDataInvoices = [
   {
     id: 1,
-    name: "Jon Snow",
+    name: "Moath Ramahi",
     email: "jonsnow@gmail.com",
     cost: "21.24",
     phone: "(665)121-5454",
@@ -218,7 +218,7 @@ export const mockDataInvoices = [
   },
   {
     id: 2,
-    name: "Cersei Lannister",
+    name: "Mohammad Qubaisi",
     email: "cerseilannister@gmail.com",
     cost: "1.24",
     phone: "(421)314-2288",
@@ -226,7 +226,7 @@ export const mockDataInvoices = [
   },
   {
     id: 3,
-    name: "Jaime Lannister",
+    name: "Khaled Omair",
     email: "jaimelannister@gmail.com",
     cost: "11.24",
     phone: "(422)982-6739",
@@ -276,52 +276,52 @@ export const mockDataInvoices = [
 
 export const mockTransactions = [
   {
-    txId: "01e4dsa",
-    user: "johndoe",
+    txId: "109112",
+    user: "Mohammad Q.",
     date: "2021-09-01",
-    cost: "43.95",
+    cost: "23",
   },
   {
-    txId: "0315dsaa",
-    user: "jackdower",
+    txId: "109221",
+    user: "Khaled A.",
     date: "2022-04-01",
-    cost: "133.45",
+    cost: "15",
   },
   {
-    txId: "01e4dsa",
-    user: "aberdohnny",
+    txId: "108882",
+    user: "Saeed M.",
     date: "2021-09-01",
-    cost: "43.95",
+    cost: "25",
   },
   {
     txId: "51034szv",
     user: "goodmanave",
     date: "2022-11-05",
-    cost: "200.95",
+    cost: "20",
   },
   {
     txId: "0a123sb",
     user: "stevebower",
     date: "2022-11-02",
-    cost: "13.55",
+    cost: "13",
   },
   {
     txId: "01e4dsa",
     user: "aberdohnny",
     date: "2021-09-01",
-    cost: "43.95",
+    cost: "12",
   },
   {
     txId: "120s51a",
     user: "wootzifer",
     date: "2019-04-15",
-    cost: "24.20",
+    cost: "24",
   },
   {
     txId: "0315dsaa",
     user: "jackdower",
     date: "2022-04-01",
-    cost: "133.45",
+    cost: "13",
   },
 ];
 
@@ -440,161 +440,161 @@ export const mockPieData = [
 
 export const mockLineData = [
   {
-    id: "japan",
+    id: "Khaled",
     data: [
       {
-        x: "plane",
-        y: 101,
+        x: "Test 1",
+        y: 26,
       },
       {
-        x: "helicopter",
-        y: 75,
+        x: "Test 2",
+        y: 26,
       },
       {
-        x: "boat",
-        y: 36,
+        x: "Test 3",
+        y: 28,
       },
       {
-        x: "train",
-        y: 216,
+        x: "Test 4",
+        y: 25,
       },
       {
-        x: "subway",
-        y: 35,
+        x: "Test 5",
+        y: 26,
       },
       {
-        x: "bus",
-        y: 236,
+        x: "Test 6",
+        y: 22,
       },
       {
-        x: "car",
-        y: 88,
+        x: "Test 7",
+        y: 21,
       },
       {
-        x: "moto",
-        y: 232,
+        x: "Test 8",
+        y: 25,
       },
       {
-        x: "bicycle",
-        y: 281,
+        x: "Test 9",
+        y: 22,
       },
       {
-        x: "horse",
-        y: 1,
+        x: "Test 10",
+        y: 18,
       },
       {
-        x: "skateboard",
-        y: 35,
+        x: "Test 11",
+        y: 17,
       },
       {
-        x: "others",
+        x: "Test 12",
+        y: 18,
+      },
+    ],
+  },
+  {
+    id: "Mohammad",
+    data: [
+      {
+        x: "Test 1",
+        y: 19,
+      },
+      {
+        x: "Test 2",
+        y: 18,
+      },
+      {
+        x: "Test 3",
+        y: 20,
+      },
+      {
+        x: "Test 4",
+        y: 17,
+      },
+      {
+        x: "Test 5",
+        y: 16,
+      },
+      {
+        x: "Test 6",
+        y: 15,
+      },
+      {
+        x: "Test 7",
         y: 14,
       },
-    ],
-  },
-  {
-    id: "france",
-    data: [
       {
-        x: "plane",
-        y: 212,
+        x: "Test 8",
+        y: 12,
       },
       {
-        x: "helicopter",
-        y: 190,
+        x: "Test 9",
+        y: 11,
       },
       {
-        x: "boat",
-        y: 270,
+        x: "Test 10",
+        y: 11,
       },
       {
-        x: "train",
-        y: 9,
+        x: "Test 11",
+        y: 12,
       },
       {
-        x: "subway",
-        y: 75,
-      },
-      {
-        x: "bus",
-        y: 175,
-      },
-      {
-        x: "car",
-        y: 33,
-      },
-      {
-        x: "moto",
-        y: 189,
-      },
-      {
-        x: "bicycle",
-        y: 97,
-      },
-      {
-        x: "horse",
-        y: 87,
-      },
-      {
-        x: "skateboard",
-        y: 299,
-      },
-      {
-        x: "others",
-        y: 251,
+        x: "Test 12",
+        y: 12,
       },
     ],
   },
   {
-    id: "us",
+    id: "Moath",
     data: [
       {
-        x: "plane",
-        y: 191,
+        x: "Test 1",
+        y: 29,
       },
       {
-        x: "helicopter",
-        y: 136,
+        x: "Test 2",
+        y: 30,
       },
       {
-        x: "boat",
-        y: 91,
+        x: "Test 3",
+        y: 28,
       },
       {
-        x: "train",
-        y: 190,
+        x: "Test 4",
+        y: 29,
       },
       {
-        x: "subway",
-        y: 211,
+        x: "Test 5",
+        y: 29,
       },
       {
-        x: "bus",
-        y: 152,
+        x: "Test 6",
+        y: 30,
       },
       {
-        x: "car",
-        y: 189,
+        x: "Test 7",
+        y: 25,
       },
       {
-        x: "moto",
-        y: 152,
+        x: "Test 8",
+        y: 23,
       },
       {
-        x: "bicycle",
-        y: 8,
+        x: "Test 9",
+        y: 21,
       },
       {
-        x: "horse",
-        y: 197,
+        x: "Test 10",
+        y: 26,
       },
       {
-        x: "skateboard",
-        y: 107,
+        x: "Test 11",
+        y: 23,
       },
       {
-        x: "others",
-        y: 170,
+        x: "Test 12",
+        y: 22,
       },
     ],
   },
