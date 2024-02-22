@@ -235,6 +235,8 @@ function Dashboard() {
           gridRow="span 2"
           backgroundColor={colors.primary[500]}
           p="30px"
+          borderRadius="20px"
+
         >
           <Typography variant="h5" fontWeight="600">
             Patient Assessments
@@ -244,6 +246,7 @@ function Dashboard() {
             flexDirection="column"
             alignItems="center"
             mt="25px"
+            
           >
             <ProgressCircle size="125" progress='0.26'/>
             <Typography
@@ -260,6 +263,8 @@ function Dashboard() {
           gridColumn="span 4"
           gridRow="span 2"
           backgroundColor={colors.primary[500]}
+          borderRadius="20px"
+
         >
           <Typography
             variant="h5"
@@ -277,6 +282,7 @@ function Dashboard() {
           gridRow="span 2"
           backgroundColor={colors.primary[500]}
           padding="30px"
+          borderRadius="20px"
         >
           <Typography variant="h5" fontWeight="600">
             Patient Disease Progress Rate
@@ -286,6 +292,7 @@ function Dashboard() {
             flexDirection="column"
             alignItems="center"
             mt="25px"
+            
           >
             <ProgressCircle size="125" progress='0.33'/>
             <Typography
