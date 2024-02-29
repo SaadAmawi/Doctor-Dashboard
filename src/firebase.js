@@ -11,7 +11,8 @@ const firebaseConfig = {
   apiKey: "AIzaSyBWwpHslTBtBf8BpomXGIPW_WFcix_WMlU",
   authDomain: "dashboard-7c123.firebaseapp.com",
   projectId: "dashboard-7c123",
-  storageBucket: "dashboard-7c123.appspot.com",
+  databaseURL: "https://dashboard-7c123-default-rtdb.europe-west1.firebasedatabase.app",
+    storageBucket: "dashboard-7c123.appspot.com",
   messagingSenderId: "285554699767",
   appId: "1:285554699767:web:538764880555f7931292f2",
   measurementId: "G-78G4CGJMN2"

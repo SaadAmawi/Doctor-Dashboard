@@ -16,10 +16,11 @@ function Patients() {
 
    const columns = [
     {field: "id", headerName:"Patient ID",width:90,headerAlign:'start',align:"center",cellClassName:"id-col",headerClassName:"id-head"},
-    {field:"name", headerName:"Patient Name",flex:1 ,width:250,cellClassName:"id-col",headerClassName:"id-head"},
-    {field:"email", headerName:"Patient Email",flex:1 ,width:250,cellClassName:"id-col",headerClassName:"id-head"},
+    {field:"name", headerName:"Patient Name",flex:1 ,width:250,cellClassName:"id-col",headerClassName:"id-head",headerAlign:"center",align:"center"},
     {field:"age", headerName:"Patient Age",width:250,type:"number",align:"center",headerAlign:"center",cellClassName:"id-col",headerClassName:"id-head"},
     {field:"phone", headerName:"Patient Phone Number",width:250,headerAlign:"center",align:"center",cellClassName:"id-col",headerClassName:"id-head"},
+    {field:"Registered_Caregiver", headerName:"Registered Caregiver",flex:1 ,width:150,cellClassName:"id-col",headerClassName:"id-head", align:"center",headerAlign:"center"},
+    {field:"caregiver_phone", headerName:"Caregiver Phone Number",width:250,headerAlign:"center",align:"center",cellClassName:"id-col",headerClassName:"id-head"},
     {field:"access", headerName:"Patient Access",width:250,headerAlign:"center",headerClassName:"id-head",align:"center",renderCell:({row:{access}})=>{
       return (
         <Box
@@ -38,8 +39,8 @@ function Patients() {
         >
           {access === "admin" && <AdminPanelSettingsOutlinedIcon/>}
           {access === "manager" && <SecurityOutlined/>}
-          {access === "user" && <LockOpenOutlinedIcon/>}
-          <Typography >
+          {access === "user" && <LockOpenOutlinedIcon style={{fill: "green"}}/>}
+          <Typography className='access'>
             {access}
           </Typography>
         </Box>
