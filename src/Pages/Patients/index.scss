@@ -19,7 +19,11 @@
 .grid{
     background-color: rgb(54, 78, 139);
     color: white;
-    
+}
+
+.access{
+    color: black;
+    font-family:coolvetica ;
 }
 .id-col{
     color: aliceblue;
@@ -36,4 +40,13 @@ color: aliceblue;
 .MuiCheckbox-root.Mui-checked{
 // background-color: white;
 color: white;
+}
+
+.MuiCheckbox-root svg path{
+    color: white;
+}
+.pagination{color: white;}
+
+.LockOpenOutlinedIcon{
+    color: black;
 }
